@@ -1,0 +1,32 @@
+/*
+* Erin Kelleher
+* 4/4/19
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: darksalmon;
+    font-family: cursive;
+}
+h1 { background-color: coral; /* color for background */
+        color: white; /* color of text */ 
+}
+p { /* type selector for ALL paragraphs */
+    color: navy;
+}
+#redText { /* use an id to change text to red */
+            color: red;
+}
+.greenText { /* use a class to change text to green in different */
+            color: green;
+}
